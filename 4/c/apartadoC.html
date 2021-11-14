@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio4-C</title>
+    <link rel="stylesheet" href="apartadoC.css">
+</head>
+
+<body>
+    <div>
+        <div class="formulario">
+            <form action="calculos.php" method="post">
+                <h2>Datos usuario</h2>
+                <p class="texto">Rellene los campos y pulse calcular</p>
+                <p>Sexo:
+                    <p>
+                        <input class="sb" type="radio" name="sexo" value="Hombre" required="required" />Hombre
+                        <input class="sb" type="radio" name="sexo" value="Mujer" required="required" />Mujer
+                    </p>
+                </p>
+                <p><input class="dato" type="number" name="edad" id="edad" placeholder="Introduce tu edad" required="required" /></p>
+                <p><input class="dato" type="number" name="altura" id="altura" placeholder="Altura(cm)" /></p>
+                <p><input class="dato" type="number" name="peso" id="peso" placeholder="Peso(Kg)" />
+                </p>
+                <p><input class="button" type="submit" name="Calcular" value="Calcular"></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

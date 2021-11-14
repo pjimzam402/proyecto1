@@ -1,0 +1,52 @@
+/*Hoja de estilos*/
+body{
+	background-color: #e8e8e8;
+}
+h1{
+	text-align: center;
+	color: #092327;
+}	
+.menu{
+	list-style: none;
+	padding: 0;
+	background-color: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+		text-decoration: none;
+		color: white;
+		padding: 20px;
+		display: block;
+		background-color: #092327;
+}
+
+.menu li{
+		
+		text-align: center;
+}
+
+.menu li a:hover{
+		background-color: #ef8354;
+}
+
+.menu li ul{
+		display:none;
+		position: absolute;
+		min-width:140px;
+}
+
+.menu li:hover > ul{
+		display:block;
+}
+
+.menu li ul li{
+		position:relative;
+}
+
+.menu li ul li ul{
+	right:-140px;
+	top:0px;
+}
